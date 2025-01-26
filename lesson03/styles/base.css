@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zen+Old+Mincho:wght@400;900&display=swap');
 :root{
     --p_color: #153243;
     --s_color: #E9E3E6;
     --p_text_color:#FFF;
     --p_font:"Zen Old Mincho", serif;
+    --s_font: "Roboto", serif;
 }
 body{
     margin: 0;
-    font-family: var(--p_font);
+
 }
 
 header{
@@ -25,10 +26,15 @@ h1,h2{
     text-align: center;
     font-weight: 900;
     font-style: normal;
+    font-family: var(--p_font);
 }
 h3{
     text-align: center;
     margin: 0;
+    font-family: var(--p_font);
+}
+p:not(.primary_text){
+    font-family: var(--s_font);
 }
 main{
     display: grid;
@@ -61,7 +67,7 @@ footer{
     font-weight: 900;
 }
 .secondary_text{
-    font-weight: 400;
+    font-family: var(--s_font);
 }
 #box1{
     background-color: #153243;
