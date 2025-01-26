@@ -1,10 +1,25 @@
+:root{
+    --p_color: #153243;
+    --s_color: #E9E3E6;
+    --p_text_color:#FFF;
+    --p_font:"Zen Old Mincho", serif;
+}
+
 @media (min-width:640px) {
     body{
-        max-width: 864px;
-        background-color: #EEF0F1;
+        max-width: 1080px;
+        background-color: #FFFFFF;
         margin: auto;
     }
-    header{
-        background-color: #FFFFFF;
+    main{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    footer{
+        margin-bottom: 0;
     }
 }

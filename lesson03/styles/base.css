@@ -1,5 +1,80 @@
-@media (min-width:640px) {
-    body{
-        background-color: black;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+:root{
+    --p_color: #153243;
+    --s_color: #E9E3E6;
+    --p_text_color:#FFF;
+    --p_font:"Zen Old Mincho", serif;
+}
+body{
+    margin: 0;
+    font-family: var(--p_font);
+}
+
+header{
+    background-color: var(--p_color);
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    
+}
+h1{
+    margin:0 10px 5px 5px;
+}
+h1,h2{
+    color: var(--p_text_color);
+    text-align: center;
+    font-weight: 900;
+    font-style: normal;
+}
+h3{
+    text-align: center;
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-row-gap: 10px;
+}
+section{
+    background-color: var(--s_color);
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+div{
+    height: 50px;
+}
+footer{
+    background-color: var(--s_color);
+    padding: 10px;
+    margin-top: 10px;
+}
+.color_schema{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5px;
+}
+.color_schema h3{
+    grid-column: 1/3;
+}
+.primary_text{
+    font-weight: 900;
+}
+.secondary_text{
+    font-weight: 400;
+}
+#box1{
+    background-color: #153243;
+}
+#box2{
+    background-color: #9A8F97;
+}
+#box3{
+    background-color: #C3BABA;
+}
+#box4{
+    background-color: #E9E3E6;
+}
+#box5{
+    background-color: #B2B2B2;
 }
