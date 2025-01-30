@@ -5,5 +5,8 @@
     --third-color: #C3BABA;
     --fourth-color:#E9E3E6;
     --fith-color:#B2B2B2;
+    --main-font:"Zen Old Mincho", serif;
+    --secondary-font:"Zen Old Mincho", serif;
+    --fallback-font:"Roboto", serif;
     
 }
