@@ -5,8 +5,34 @@
     }
     header{
         width: 100%;
+        background-color: var(--frist-color);
+        color: white;
     }
-
+    h1{
+        text-align: center;
+        
+        
+    }
+    ul{
+        width: 300px;
+    }
+    ul li{
+        list-style: none;
+        display: inline;
+    }
+    .main-img{
+        width: 100%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 75% 25%;
+        background-color: var(--fourth-color);
+    }
+    .articles{
+        display: grid;
+        grid-column: 1/3;
+        grid-template-columns: auto auto auto;
+    }
 
 
 
